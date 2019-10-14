@@ -11,7 +11,6 @@ const Home = (props) => (
                 <div className="home-thumbnail-2"></div>
                 <div className="home-thumbnail-3"></div>
 
-
             </div>
 
         </div>
