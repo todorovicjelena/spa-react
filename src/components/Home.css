@@ -1,0 +1,65 @@
+.main-content {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+    background-image: url('https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2019/02/24211315/0f4be43c4171da2bfcd53c97632fc0c8c1c86f858206393bcf7598f2b2ac6da7-770x443.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+
+}
+
+.home-thumbnail-1, 
+.home-thumbnail-2 ,
+.home-thumbnail-3 {
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+
+}
+
+.home-thumbnail-1 {
+    background-image: url('https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2016-02/1280_denzel_washington_halle_berry_160225_810923.jpg?itok=y6_uEwkY');
+}
+.home-thumbnail-2 {
+    background-image: url('https://s.abcnews.com/images/Entertainment/oscar-winners-hug-ap-thg-180304_12x5_992.jpg');
+}
+
+.home-thumbnail-3 {
+    background-image: url('https://secure.i.telegraph.co.uk/multimedia/archive/03208/oscars-awards-eddi_3208735k.jpg');
+}
+
+
+.thumbnail-container{
+display: flex;
+justify-content: space-around;
+margin-bottom: 50px;
+
+}
+
+.home-thumbnail-1:hover ,
+.home-thumbnail-2:hover ,
+.home-thumbnail-3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+
+}
